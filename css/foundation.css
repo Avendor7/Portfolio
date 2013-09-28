@@ -7,14 +7,17 @@
 
 html,
 body {
-  font-size: 100%; }
+  font-size: 100%; 
+background: #DDDDDD;}
 
 body {
-  background: white;
+  /* Background colour */  
+  background: #DDDDDD;
+  
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Tahoma", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;

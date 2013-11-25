@@ -38,6 +38,7 @@
                             <li class=""><a href="./services.html">Services</a></li>
                             <li class=""><a href="./about.html">About Me</a></li>
                             <li class=""><a href="./contact.html">Contact Me</a></li>
+                            <li class=""><a href="./business.php">Business Contacts</a></li>
                             <li class=""><a href="./links.html">Links</a></li>
                         </ul>
                     </section>

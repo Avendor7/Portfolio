@@ -10,7 +10,7 @@
   
   // check and see if user is logged in
   if (!isset($_SESSION['id'])) {
-    echo '<p class="login">Please <a href="login.php">log in</a> to access this page.</p>';
+    echo '<p class="login">Please <a href="login.php">log in</a> to access this page.    USERNAME IS: stephen   PASSWORD IS: password </p>';
     
     exit();
   }
@@ -80,16 +80,16 @@
                     <div class="large-9 columns">
                         <div class="panel radius">
 
-                            <h2>Contact Me</h2>
+                            <h2>Business Contacts</h2>
                             <div class="row">
                                 <div class="large-9 small-9 columns">
                                     <!-- PAGE CONTENT -->
-                                    <p>Email: <a href="mailto:steve.wiggins7@gmail.com">steve.wiggins7@gmail.com</a></p>
-                                    <p>Facebook: <a href="https://www.facebook.com/steve.wiggins">facebook.com/steve.wiggins</a></p>
-                                    <p>Twitter: <a href="https://www.twitter.com/stevemwiggins">twitter.com/stevemwiggins</a></p>
-                                    <p>Google +: <a href="google.com/+StephenWiggins2127">google.com/StephenWiggins2127</a></p>
-                                    <p>GitHub: <a href="https://github.com/step1041/">github.com/step1041</a></p>
-                                    <p>Skype: stevemwiggins</p>
+                                    <p>Stephen Wilson: <a href="http://webdesign4.georgianc.on.ca/~200220207/">Webdesign4</a> </p>
+                                    <p>Tim Radder: <a href="http://webdesign4.georgianc.on.ca/~200244040/AdvancedWeb/Profile/index.html">Webdesign4</a></p>
+                                    <p>Centre For Applied Research and Innovation - Georgian College: <a href="http://www.georgiancollege.ca/community-alumni/applied-research/">CARI</a></p>
+                                    <p>Georgian College: <a href="http://georgiancollege.ca">Georgian College</a></p>
+                                    <p>Banner: <a href="https://sis.georgianc.on.ca">sis.georgianc.on.ca</a></p>
+                                    <p>Blackboard: <a href="http://gc.blackboard.com">gc.blackboard.com</a></p>
                                 </div>
 
                             </div>

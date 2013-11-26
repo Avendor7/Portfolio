@@ -1,4 +1,4 @@
-<!php 
+
 <!DOCTYPE html>
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -42,6 +42,7 @@
                             <li class=""><a href="./business.php">Business Contacts</a></li>
                             <li class=""><a href="./links.php">Links</a></li>
                             <li class=""><a href="./login.php">Login</a></li>
+                            <li class=""><a href="./logout.php"><?php echo("Log Out " . $_SESSION['username'] )?></a></li>
                         </ul>
                     </section>
                 </nav>

@@ -1,14 +1,15 @@
 <?php
   // Start the session
-  require_once('appvars.php'); // application constants- file upload sizes
+  require_once('startsession.php');
+  
   require_once('connectvars.php'); // database username and password files
-
+  
 
   // Connect to the database 
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
   
   // check and see if user is logged in
-  if (!isset($_SESSION['user_id'])) {
+  if (!isset($_SESSION['id'])) {
     echo '<p class="login">Please <a href="login.php">log in</a> to access this page.</p>';
     
     exit();

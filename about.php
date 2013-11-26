@@ -26,19 +26,21 @@
                         <!-- Title Area -->
                         <li class="name">
                             <h1>
-                               <a href="./index.html">SW</a>
+                                <a href="./index.html">SW</a>
                             </h1>
                         </li>
                         <li class="toggle-topbar menu-icon"><a href="index.html"><span>menu</span></a></li>
                     </ul>
 
                     <section class="top-bar-section">
-                           <ul class="left">
-                            <li class=""><a href="./projects.html">Projects</a></li>
-                            <li class=""><a href="./services.html">Services</a></li>
-                            <li class=""><a href="./about.html">About Me</a></li>
-                            <li class=""><a href="./contact.html">Contact Me</a></li>
-                            <li class=""><a href="./links.html">Links</a></li>
+                        <ul class="left">
+                            <li class=""><a href="./projects.php">Projects</a></li>
+                            <li class=""><a href="./services.php">Services</a></li>
+                            <li class=""><a href="./about.php">About Me</a></li>
+                            <li class=""><a href="./contact.php">Contact Me</a></li>
+                            <li class=""><a href="./business.php">Business Contacts</a></li>
+                            <li class=""><a href="./links.php">Links</a></li>
+                            <li class=""><a href="./login.php">Login</a></li>
                         </ul>
                     </section>
                 </nav>
@@ -48,72 +50,43 @@
             </div>
         </div>
 
+
         <div class="row">
             <div class="large-12 columns">
                 <div class="row">
-                
-                    <!-- Content -->
-                    <div class="large-3 columns">
-                        <div class="panel radius">
 
-                            <div class="row">
-                                 <img src="./img/logo.png" alt="slide image">
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Content -->
+
                     <div class="large-9 columns">
                         <div class="panel radius">
 
+                            <h2>About Me</h2>
                             <div class="row">
+                                <div class="large-9 small-9 columns">
+                                    <!-- PAGE CONTENT -->
+                                    <h4>Hello World!</h4>
+                                    <p>Stephen Wiggins is currently attending Georgian College in Barrie, Ontario participating in their 3 year Computer Programmer Analyst program.
+                                        <br><br>He has work experience in web development while working at Georgian College in Barrie in the summer of 2013.
+                                        <br><br>Other past work includes manufacturing at Crystal Fountains in Concord, Ontario during the summers of 2009, 2010, and 2012.
+                                        <br><br>Volunteer experience gained at Victoria Village Manor working in the laundry room in 2009.
+                                        <br><br>Education includes an OSSD from Bear Creek Secondary School in 2012 specializing in business and computer courses.
+                                        <br><br>If you wish to have a look at my <a href="./files/resume.pdf">Resume</a> feel free to do so!</p>
 
-                                    <h4>Only The Best in Web Development!</h4><hr/>
-                                    <h5 class="subheader">  I strive to give you the best looking website to present to your visitors as possible. By using current HTML5 and CSS3 languages to bring you a rich, modern web experience.</h5>
+                                </div>
 
                             </div>
                         </div>
                     </div>
-                  
+                    <div class="large-3 columns">
+                        <div class="panel radius">
+                            <img src="./img/GC_portrait_about.jpg" alt="slide image">
+                        </div>
+                    </div>
                     <!-- End Content -->
 
                 </div>
             </div>
         </div>
-        
-        <div class="row">
-            <div class="large-12 columns">
-
-                <!-- Desktop Slider -->
-
-                <div class="hide-for-small">
-                    <div id="featured" data-orbit>
-                        <img src="./img/GC_weather.jpg" alt="slide image">
-                        <img src="./img/GC_portrait.jpg" alt="slide image">
-                        <img src="./img/weather_station.jpg" alt="slide image">
-                        <img src="./img/nintendo.jpg" alt="slide image">
-                    </div>
-                </div>
-
-                <!-- End Desktop Slider -->
-
-
-                <!-- Mobile Header -->
-
-
-                <div class="row">
-                    <div class="small-12 show-for-small"><br>
-                        <img src="./img/GC_weather.jpg" />
-                        <br>
-                        <img src="./img/GC_portrait.jpg" />
-                        <br>
-                        <img src="./img/Weather_Station_Home.png" />
-                    </div>
-                </div>
-                <!-- End Mobile Header -->
-
-            </div>
-        </div><br>
-
-        
 
         <!-- Footer -->
 

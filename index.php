@@ -1,3 +1,4 @@
+<!php 
 <!DOCTYPE html>
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -26,19 +27,21 @@
                         <!-- Title Area -->
                         <li class="name">
                             <h1>
-                                <a href="./index.html">SW</a>
+                               <a href="./index.html">SW</a>
                             </h1>
                         </li>
                         <li class="toggle-topbar menu-icon"><a href="index.html"><span>menu</span></a></li>
                     </ul>
 
                     <section class="top-bar-section">
-                        <ul class="left">
-                            <li class=""><a href="./projects.html">Projects</a></li>
-                            <li class=""><a href="./services.html">Services</a></li>
-                            <li class=""><a href="./about.html">About Me</a></li>
-                            <li class=""><a href="./contact.html">Contact Me</a></li>
-                            <li class=""><a href="./links.html">Links</a></li>
+                           <ul class="left">
+                            <li class=""><a href="./projects.php">Projects</a></li>
+                            <li class=""><a href="./services.php">Services</a></li>
+                            <li class=""><a href="./about.php">About Me</a></li>
+                            <li class=""><a href="./contact.php">Contact Me</a></li>
+                            <li class=""><a href="./business.php">Business Contacts</a></li>
+                            <li class=""><a href="./links.php">Links</a></li>
+                            <li class=""><a href="./login.php">Login</a></li>
                         </ul>
                     </section>
                 </nav>
@@ -48,41 +51,72 @@
             </div>
         </div>
 
-
         <div class="row">
             <div class="large-12 columns">
                 <div class="row">
-
+                
                     <!-- Content -->
+                    <div class="large-3 columns">
+                        <div class="panel radius">
 
+                            <div class="row">
+                                 <img src="./img/logo.png" alt="slide image">
+                            </div>
+                        </div>
+                    </div>
                     <div class="large-9 columns">
                         <div class="panel radius">
 
-                            <h2>Contact Me</h2>
                             <div class="row">
-                                <div class="large-9 small-9 columns">
-                                    <!-- PAGE CONTENT -->
-                                    <p>Email: <a href="mailto:steve.wiggins7@gmail.com">steve.wiggins7@gmail.com</a></p>
-                                    <p>Facebook: <a href="https://www.facebook.com/steve.wiggins">facebook.com/steve.wiggins</a></p>
-                                    <p>Twitter: <a href="https://www.twitter.com/stevemwiggins">twitter.com/stevemwiggins</a></p>
-                                    <p>Google +: <a href="google.com/+StephenWiggins2127">google.com/StephenWiggins2127</a></p>
-                                    <p>GitHub: <a href="https://github.com/step1041/">github.com/step1041</a></p>
-                                    <p>Skype: stevemwiggins</p>
-                                </div>
+
+                                    <h4>Only The Best in Web Development!</h4><hr/>
+                                    <h5 class="subheader">  I strive to give you the best looking website to present to your visitors as possible. By using current HTML5 and CSS3 languages to bring you a rich, modern web experience.</h5>
 
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 columns">
-                        <div class="panel radius">
-                            <img src="./img/GC_portrait_about.jpg" alt="slide image" height="200" width="200">
-                        </div>
-                    </div>
+                  
                     <!-- End Content -->
 
                 </div>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="large-12 columns">
+
+                <!-- Desktop Slider -->
+
+                <div class="hide-for-small">
+                    <div id="featured" data-orbit>
+                        <img src="./img/GC_weather.jpg" alt="slide image">
+                        <img src="./img/GC_portrait.jpg" alt="slide image">
+                        <img src="./img/weather_station.jpg" alt="slide image">
+                        <img src="./img/nintendo.jpg" alt="slide image">
+                    </div>
+                </div>
+
+                <!-- End Desktop Slider -->
+
+
+                <!-- Mobile Header -->
+
+
+                <div class="row">
+                    <div class="small-12 show-for-small"><br>
+                        <img src="./img/GC_weather.jpg" />
+                        <br>
+                        <img src="./img/GC_portrait.jpg" />
+                        <br>
+                        <img src="./img/Weather_Station_Home.png" />
+                    </div>
+                </div>
+                <!-- End Mobile Header -->
+
+            </div>
+        </div><br>
+
+        
 
         <!-- Footer -->
 

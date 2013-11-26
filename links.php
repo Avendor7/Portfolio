@@ -34,11 +34,13 @@
 
                     <section class="top-bar-section">
                         <ul class="left">
-                            <li class=""><a href="./projects.html">Projects</a></li>
-                            <li class=""><a href="./services.html">Services</a></li>
-                            <li class=""><a href="./about.html">About Me</a></li>
-                            <li class=""><a href="./contact.html">Contact Me</a></li>
-                            <li class=""><a href="./links.html">Links</a></li>
+                           <li class=""><a href="./projects.php">Projects</a></li>
+                            <li class=""><a href="./services.php">Services</a></li>
+                            <li class=""><a href="./about.php">About Me</a></li>
+                            <li class=""><a href="./contact.php">Contact Me</a></li>
+                            <li class=""><a href="./business.php">Business Contacts</a></li>
+                            <li class=""><a href="./links.php">Links</a></li>
+                            <li class=""><a href="./login.php">Login</a></li>
                         </ul>
                     </section>
                 </nav>
@@ -52,39 +54,19 @@
         <div class="row">
             <div class="large-12 columns">
                 <div class="row">
-
-                    <!-- Content -->
-
-                    <div class="large-9 columns">
+                    <div class="large-12 columns">
                         <div class="panel radius">
-
-                            <h2>About Me</h2>
-                            <div class="row">
-                                <div class="large-9 small-9 columns">
-                                    <!-- PAGE CONTENT -->
-                                    <h4>Hello World!</h4>
-                                    <p>Stephen Wiggins is currently attending Georgian College in Barrie, Ontario participating in their 3 year Computer Programmer Analyst program.
-                                        <br><br>He has work experience in web development while working at Georgian College in Barrie in the summer of 2013.
-                                        <br><br>Other past work includes manufacturing at Crystal Fountains in Concord, Ontario during the summers of 2009, 2010, and 2012.
-                                        <br><br>Volunteer experience gained at Victoria Village Manor working in the laundry room in 2009.
-                                        <br><br>Education includes an OSSD from Bear Creek Secondary School in 2012 specializing in business and computer courses.
-                                        <br><br>If you wish to have a look at my <a href="./files/resume.pdf">Resume</a> feel free to do so!</p>
-
-                                </div>
-
-                            </div>
+                            <!-- PAGE CONTENT -->
+                            <h2>Links</h2><hr/>
+                            <a href="http://webdesign4.georgianc.on.ca/~200220207/">Stephen Wilson</a>
+                            <a href="http://webdesign4.georgianc.on.ca/~200244040/AdvancedWeb/Profile/index.html">Tim Radder</a>
+                            
                         </div>
                     </div>
-                    <div class="large-3 columns">
-                        <div class="panel radius">
-                            <img src="./img/GC_portrait_about.jpg" alt="slide image">
-                        </div>
-                    </div>
-                    <!-- End Content -->
-
                 </div>
             </div>
-        </div>
+        </div><br>
+
 
         <!-- Footer -->
 
@@ -100,6 +82,7 @@
                             <li><a href="https://www.facebook.com/steve.wiggins">Facebook</a></li>
                             <li><a href="https://twitter.com/stevemwiggins">Twitter</a></li>
                             <li><a href="https://github.com/step1041/">GitHub</a></li>
+                            <li><a href="https://plus.google.com/u/0/103433475841800557672/posts">Google +</a></li>
                         </ul>
                     </div>
                 </div>

@@ -33,12 +33,14 @@
                     </ul>
 
                     <section class="top-bar-section">
-                        <ul class="left">
-                            <li class=""><a href="./projects.html">Projects</a></li>
-                            <li class=""><a href="./services.html">Services</a></li>
-                            <li class=""><a href="./about.html">About Me</a></li>
-                            <li class=""><a href="./contact.html">Contact Me</a></li>
-                            <li class=""><a href="./links.html">Links</a></li>
+                           <ul class="left">
+                            <li class=""><a href="./projects.php">Projects</a></li>
+                            <li class=""><a href="./services.php">Services</a></li>
+                            <li class=""><a href="./about.php">About Me</a></li>
+                            <li class=""><a href="./contact.php">Contact Me</a></li>
+                            <li class=""><a href="./business.php">Business Contacts</a></li>
+                            <li class=""><a href="./links.php">Links</a></li>
+                            <li class=""><a href="./login.php">Login</a></li>
                         </ul>
                     </section>
                 </nav>
@@ -51,22 +53,43 @@
 
         <div class="row">
             <div class="large-12 columns">
+                   <div class="row">
+            <div class="large-12 columns">
                 <div class="row">
-                    <div class="large-12 columns">
+
+                    <!-- Content -->
+                    
+                     <div class="large-12 columns">
+                         
                         <div class="panel radius">
-                            <!-- PAGE CONTENT -->
-                            <h2>Links</h2><hr/>
-                            <a href="http://webdesign4.georgianc.on.ca/~200220207/">Stephen Wilson</a>
-                            <a href="http://webdesign4.georgianc.on.ca/~200244040/AdvancedWeb/Profile/index.html">Tim Radder</a>
                             
+                            <div class="row">
+                                <!-- PAGE CONTENT -->
+                                <h2>Services</h2><hr/>
+                                   <h4>Custom sites for your needs</h4>
+                                   <p>The site I build is for you, so it should be tailored for your needs, no more template designed web sites. </p>
+                                   <p>I do it all! I will work on your project from start to finish to ensure it is built to your needs and specifications.</p>
+                                   <p>Working with speed and efficiency your web site will be done as soon as possible.</p>
+                                   <p>Readable code is important, so I make sure that the final code is readable for you to make changes and add parts as needed.</p>
+                                   <p>Creating websites couldn't be easier! Contact me for a quote today!</p>
+
+                            </div>
                         </div>
                     </div>
+
+                    <!-- End Content -->
+
                 </div>
+            </div>
+        </div>
+                
+
             </div>
         </div><br>
 
+        
 
-        <!-- Footer -->
+<!-- Footer -->
 
         <footer class="row">
             <div class="large-12 columns">
@@ -80,7 +103,6 @@
                             <li><a href="https://www.facebook.com/steve.wiggins">Facebook</a></li>
                             <li><a href="https://twitter.com/stevemwiggins">Twitter</a></li>
                             <li><a href="https://github.com/step1041/">GitHub</a></li>
-                            <li><a href="https://plus.google.com/u/0/103433475841800557672/posts">Google +</a></li>
                         </ul>
                     </div>
                 </div>
@@ -90,7 +112,7 @@
         <script>
             document.write('<script src=js/vendor/' +
                     ('__proto__' in {} ? 'zepto' : 'jquery') +
-                    '.js><\/script>');
+                    '.js><\/script>')
         </script>
         <script src="js/foundation.min.js"></script>
         <script>

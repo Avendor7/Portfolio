@@ -33,12 +33,14 @@
                     </ul>
 
                     <section class="top-bar-section">
-                           <ul class="left">
-                            <li class=""><a href="./projects.html">Projects</a></li>
-                            <li class=""><a href="./services.html">Services</a></li>
-                            <li class=""><a href="./about.html">About Me</a></li>
-                            <li class=""><a href="./contact.html">Contact Me</a></li>
-                            <li class=""><a href="./links.html">Links</a></li>
+                        <ul class="left">
+                           <li class=""><a href="./projects.php">Projects</a></li>
+                            <li class=""><a href="./services.php">Services</a></li>
+                            <li class=""><a href="./about.php">About Me</a></li>
+                            <li class=""><a href="./contact.php">Contact Me</a></li>
+                            <li class=""><a href="./business.php">Business Contacts</a></li>
+                            <li class=""><a href="./links.php">Links</a></li>
+                            <li class=""><a href="./login.php">Login</a></li>
                         </ul>
                     </section>
                 </nav>
@@ -51,43 +53,40 @@
 
         <div class="row">
             <div class="large-12 columns">
-                   <div class="row">
-            <div class="large-12 columns">
                 <div class="row">
 
                     <!-- Content -->
-                    
-                     <div class="large-12 columns">
-                         
+
+                    <div class="large-9 columns">
                         <div class="panel radius">
-                            
+
+                            <h2>Contact Me</h2>
                             <div class="row">
-                                <!-- PAGE CONTENT -->
-                                <h2>Services</h2><hr/>
-                                   <h4>Custom sites for your needs</h4>
-                                   <p>The site I build is for you, so it should be tailored for your needs, no more template designed web sites. </p>
-                                   <p>I do it all! I will work on your project from start to finish to ensure it is built to your needs and specifications.</p>
-                                   <p>Working with speed and efficiency your web site will be done as soon as possible.</p>
-                                   <p>Readable code is important, so I make sure that the final code is readable for you to make changes and add parts as needed.</p>
-                                   <p>Creating websites couldn't be easier! Contact me for a quote today!</p>
+                                <div class="large-9 small-9 columns">
+                                    <!-- PAGE CONTENT -->
+                                    <p>Email: <a href="mailto:steve.wiggins7@gmail.com">steve.wiggins7@gmail.com</a></p>
+                                    <p>Facebook: <a href="https://www.facebook.com/steve.wiggins">facebook.com/steve.wiggins</a></p>
+                                    <p>Twitter: <a href="https://www.twitter.com/stevemwiggins">twitter.com/stevemwiggins</a></p>
+                                    <p>Google +: <a href="google.com/+StephenWiggins2127">google.com/StephenWiggins2127</a></p>
+                                    <p>GitHub: <a href="https://github.com/step1041/">github.com/step1041</a></p>
+                                    <p>Skype: stevemwiggins</p>
+                                </div>
 
                             </div>
                         </div>
                     </div>
-
+                    <div class="large-3 columns">
+                        <div class="panel radius">
+                            <img src="./img/GC_portrait_about.jpg" alt="slide image" height="200" width="200">
+                        </div>
+                    </div>
                     <!-- End Content -->
 
                 </div>
             </div>
         </div>
-                
 
-            </div>
-        </div><br>
-
-        
-
-<!-- Footer -->
+        <!-- Footer -->
 
         <footer class="row">
             <div class="large-12 columns">
@@ -110,7 +109,7 @@
         <script>
             document.write('<script src=js/vendor/' +
                     ('__proto__' in {} ? 'zepto' : 'jquery') +
-                    '.js><\/script>')
+                    '.js><\/script>');
         </script>
         <script src="js/foundation.min.js"></script>
         <script>

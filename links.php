@@ -1,3 +1,10 @@
+<?php
+  // Start the session
+  require_once('startsession.php');
+  
+  require_once('connectvars.php'); // database username and password files
+  
+?>
 <!DOCTYPE html>
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -26,7 +33,7 @@
                         <!-- Title Area -->
                         <li class="name">
                             <h1>
-                                <a href="./index.html">SW</a>
+                                <a href="./index.php">SW</a>
                             </h1>
                         </li>
                         <li class="toggle-topbar menu-icon"><a href="index.html"><span>menu</span></a></li>
@@ -34,13 +41,16 @@
 
                     <section class="top-bar-section">
                         <ul class="left">
-                           <li class=""><a href="./projects.php">Projects</a></li>
+                            <li class=""><a href="./projects.php">Projects</a></li>
                             <li class=""><a href="./services.php">Services</a></li>
                             <li class=""><a href="./about.php">About Me</a></li>
                             <li class=""><a href="./contact.php">Contact Me</a></li>
                             <li class=""><a href="./business.php">Business Contacts</a></li>
                             <li class=""><a href="./links.php">Links</a></li>
+                        </ul>
+                        <ul class ="right">
                             <li class=""><a href="./login.php">Login</a></li>
+                            <li class=""><a href="./logout.php"><?php echo("Log Out: " . $_SESSION['username'] ) ?></a></li>
                         </ul>
                     </section>
                 </nav>

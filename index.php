@@ -1,4 +1,9 @@
+<?php
+// Start the session
+require_once('startsession.php');
 
+require_once('connectvars.php'); // database username and password files
+?>
 <!DOCTYPE html>
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -27,22 +32,24 @@
                         <!-- Title Area -->
                         <li class="name">
                             <h1>
-                               <a href="./index.html">SW</a>
+                                <a href="./index.php">SW</a>
                             </h1>
                         </li>
                         <li class="toggle-topbar menu-icon"><a href="index.html"><span>menu</span></a></li>
                     </ul>
 
                     <section class="top-bar-section">
-                           <ul class="left">
+                        <ul class="left">
                             <li class=""><a href="./projects.php">Projects</a></li>
                             <li class=""><a href="./services.php">Services</a></li>
                             <li class=""><a href="./about.php">About Me</a></li>
                             <li class=""><a href="./contact.php">Contact Me</a></li>
                             <li class=""><a href="./business.php">Business Contacts</a></li>
                             <li class=""><a href="./links.php">Links</a></li>
+                        </ul>
+                        <ul class ="right">
                             <li class=""><a href="./login.php">Login</a></li>
-                            <li class=""><a href="./logout.php"><?php echo("Log Out " . $_SESSION['username'] )?></a></li>
+                            <li class=""><a href="./logout.php"><?php echo("Log Out: " . $_SESSION['username'] ) ?></a></li>
                         </ul>
                     </section>
                 </nav>
@@ -55,13 +62,13 @@
         <div class="row">
             <div class="large-12 columns">
                 <div class="row">
-                
+
                     <!-- Content -->
                     <div class="large-3 columns">
                         <div class="panel radius">
 
                             <div class="row">
-                                 <img src="./img/logo.png" alt="slide image">
+                                <img src="./img/logo.png" alt="slide image">
                             </div>
                         </div>
                     </div>
@@ -70,19 +77,19 @@
 
                             <div class="row">
 
-                                    <h4>Only The Best in Web Development!</h4><hr/>
-                                    <h5 class="subheader">  I strive to give you the best looking website to present to your visitors as possible. By using current HTML5 and CSS3 languages to bring you a rich, modern web experience.</h5>
+                                <h4>Only The Best in Web Development!</h4><hr/>
+                                <h5 class="subheader">  I strive to give you the best looking website to present to your visitors as possible. By using current HTML5 and CSS3 languages to bring you a rich, modern web experience.</h5>
 
                             </div>
                         </div>
                     </div>
-                  
+
                     <!-- End Content -->
 
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="large-12 columns">
 
@@ -117,7 +124,7 @@
             </div>
         </div><br>
 
-        
+
 
         <!-- Footer -->
 

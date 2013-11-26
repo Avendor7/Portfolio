@@ -43,7 +43,7 @@
                         <!-- Title Area -->
                         <li class="name">
                             <h1>
-                                <a href="./index.html">SW</a>
+                                <a href="./index.php">SW</a>
                             </h1>
                         </li>
                         <li class="toggle-topbar menu-icon"><a href="index.html"><span>menu</span></a></li>
@@ -57,7 +57,10 @@
                             <li class=""><a href="./contact.php">Contact Me</a></li>
                             <li class=""><a href="./business.php">Business Contacts</a></li>
                             <li class=""><a href="./links.php">Links</a></li>
+                        </ul>
+                        <ul class ="right">
                             <li class=""><a href="./login.php">Login</a></li>
+                            <li class=""><a href="./logout.php"><?php echo("Log Out: " . $_SESSION['username'] ) ?></a></li>
                         </ul>
                     </section>
                 </nav>
